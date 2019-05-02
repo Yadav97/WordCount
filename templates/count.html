@@ -1,0 +1,27 @@
+<h1>COUNT page</h1>
+
+
+<a href={%url "home" %}><button type="button">Check Again</button></a>
+
+<h1>your word is</h1>
+<h2>{{full}}</h2>    
+
+<h1>your counted words is</h1>
+<h2>{{countwords}}</h2>
+
+
+
+<!-- we apply the loop for getting the elemenst from the list -->
+
+
+<!-- {{worddict}} -->
+
+
+
+{% for word,valuetotal in worddict %}
+
+{{ word }} ---->  {{valuetotal}}
+
+
+
+{% endfor %}
